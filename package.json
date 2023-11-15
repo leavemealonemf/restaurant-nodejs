@@ -9,11 +9,13 @@
     "build": "tsc"
   },
   "keywords": [],
-  "author": "",
+  "author": "leavemealonemf",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
+    "inversify": "^6.0.2",
+    "reflect-metadata": "^0.1.13",
     "tslog": "^4.9.2"
   },
   "devDependencies": {
