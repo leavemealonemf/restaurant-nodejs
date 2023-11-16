@@ -2,8 +2,8 @@
 Stack:
 > + Express
 > + TypeScript
-> + Prisma (in future)
-> + PostgreSQL (in future)
+> + Prisma 
+> + PostgreSQL 
 
 
 
