@@ -10,9 +10,9 @@ export class ConfigService implements IConfigService {
 	constructor(@inject(TYPES.ILogger) private logger: ILogger) {
 		const result: DotenvConfigOutput = config();
 		if (result.error) {
-			this.logger.error('Не удалось прочитать файл .env');
+			this.logger.error('[ConfigService] Не удалось прочитать файл .env');
 		} else {
-			this.logger.log('Конфиг .env загружен');
+			this.logger.log('[ConfigService] Конфиг .env загружен');
 			this.config = result.parsed as DotenvParseOutput;
 		}
 	}
